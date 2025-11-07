@@ -15,7 +15,7 @@ Before starting, ensure you have:
 Execute the following API request to initiate the voice bot trigger:
 
 ```bash
-curl --location 'https://multientity.sensehq.com/api/v1/voice-bot/trigger' \
+curl --location 'https://<agency_name>.sensehq.com/api/v1/voice-bot/trigger' \
 --header 'accept: application/json' \
 --header 'sec-ch-ua-platform: "macOS"' \
 --header 'sec-fetch-dest: empty' \
