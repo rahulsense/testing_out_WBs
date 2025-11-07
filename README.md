@@ -82,7 +82,9 @@ Replace the following values with your agency-specific information:
 - `to_number`: Your test phone number
 - `prompt_replacements`: Update with appropriate candidate and job submission data
 - `anchor_entity_id`: Your specific entity ID
+- `anchor_entity_type`: The entity type of the anchor entity (e.g., `bh_candidate`, `bh_job_submission`, etc. - check the bot's initial ticket to determine the correct entity type)
 - `recipient_entity_id`: Your recipient entity ID
+- `recipient_entity_type`: The entity type of the recipient entity (e.g., `bh_candidate`, `bh_job_submission`, etc. - check the bot's initial ticket to determine the correct entity type)
 - `retell_bot_id`: Your configured bot ID in Retell
 
 ## Step 2: Obtain the Recipient Entity ID
