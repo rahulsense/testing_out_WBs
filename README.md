@@ -22,7 +22,7 @@ curl --location 'https://<agency_name>.sensehq.com/api/v1/voice-bot/trigger' \
 --header 'sec-fetch-mode: cors' \
 --header 'sec-fetch-site: same-origin' \
 --header 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36' \
---header 'x-api-key: 02ae703f-200d-4978-a87b-52afb2a99508' \
+--header 'x-api-key: <ask>' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: sosense=b6bd0a78-4797-4a4e-8185-e82b8eada601; sosense-agency-location=multientity.sensehq.com; sosense=b6bd0a78-4797-4a4e-8185-e82b8eada601; sosense-agency-location=multientity.sensehq.com; sosense=b6bd0a78-4797-4a4e-8185-e82b8eada601; sosense-agency-location=multientity.sensehq.com' \
 --data '{
